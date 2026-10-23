@@ -1,0 +1,30 @@
+# Dependencias
+node_modules/
+
+# Build generado por `npm run build` en Frontend
+Backend/index.html
+
+# Config local de clasp (contiene tu scriptId)
+Backend/.clasp.json
+
+# Entorno
+.env
+.env.local
+*.local
+
+# Tooling de skills (no es parte del proyecto)
+Frontend/skills-lock.json
+
+# TypeScript
+*.tsbuildinfo
+
+# Editores / SO
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
