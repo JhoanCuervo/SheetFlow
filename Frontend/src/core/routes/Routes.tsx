@@ -5,6 +5,7 @@ import MainLayout from "../layout/Layout";
 import ErrorBoundary from "../layout/ErrorBoundary";
 import Index from "../../pages/Dashboard/Index";
 import Products from "../../pages/Products/Index";
+import Categories from "../../pages/Categories/Index";
 
 const Routes: RouteObject[] = [
   {
@@ -13,6 +14,7 @@ const Routes: RouteObject[] = [
     children: [
       { path: "/", element: <Index /> },
       { path: "/products", element: <Products /> },
+      { path: "/categories", element: <Categories /> },
     ],
   },
 ];

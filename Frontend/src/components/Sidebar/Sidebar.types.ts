@@ -1,5 +1,5 @@
 import type { IconData } from "@lineiconshq/react-lineicons/dist/LineIcon";
-type NavItemId = "dashboard" | "products";
+type NavItemId = "dashboard" | "products" | "categories";
 
 export interface NavItem {
   id: NavItemId;
